@@ -1,17 +1,16 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Dean Jaddoe",
+  title: "Software Engineer Student",
+  description: "Portfolio website of Dean Jaddoe",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "contact@deanj.dev",
+    linkedin: "https://linkedin.com/in/deanjaddoe",
+    github: "https://github.com/Deanddj",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm Dean Jaddoe, a passionate Software Engineering student at The Hague University of Applied Sciences with a strong interest in full-stack development. My goal is building functional, user-friendly applications that solve real-world problems, working with technologies like React, ASP.NET, Python, and Docker. My projects range from a full-stack web application to a machine learning model. As a motivated learner with a problem-solving mindset, I'm constantly exploring new technologies and refining my skills, always aiming to create solutions that are both technically correct and user-centered. When I'm not coding, you'll find me at the gym or enjoying social activities with friends.",
+  skills: ["Javascript", "React", "ASP.NET", "Python", "C#", "Docker"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -35,57 +34,56 @@ export const siteConfig = {
       skills: ["React", "Node.js", "AWS"],
     },
   ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+  // experience: [
+  //   {
+  //     company: "Tech Company",
+  //     title: "Senior Software Engineer",
+  //     dateRange: "Jan 2022 - Present",
+  //     bullets: [
+  //       "Led development of microservices architecture serving 1M+ users",
+  //       "Reduced API response times by 40% through optimization",
+  //       "Mentored team of 5 junior developers",
+  //     ],
+  //   },
+  //   {
+  //     company: "Startup Inc",
+  //     title: "Full Stack Developer",
+  //     dateRange: "Jun 2020 - Dec 2021",
+  //     bullets: [
+  //       "Built and launched MVP product from scratch using React and Node.js",
+  //       "Implemented CI/CD pipeline reducing deployment time by 60%",
+  //       "Collaborated with product team to define technical requirements",
+  //     ],
+  //   },
+  //   {
+  //     company: "Digital Agency",
+  //     title: "Frontend Developer",
+  //     dateRange: "Aug 2018 - May 2020",
+  //     bullets: [
+  //       "Developed responsive web applications for 20+ clients",
+  //       "Improved site performance scores by 35% on average",
+  //       "Introduced modern JavaScript frameworks to legacy codebases",
+  //     ],
+  //   },
+  // ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "The Hague University Of Applied Sciences",
+      degree: "Bachelor Software Engineering",
+      dateRange: "2023 - Present",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Gained hands-on experience working in Agile Scrum methodology through university projects",
+        "Successfully completed propedeuse (first-year diploma) in Software Engineering",
+        "Passed all technical courses on first attempt with above-average grades",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Oranje Nassau College",
+      degree: "NT Havo Diploma",
+      dateRange: "2017 - 2023",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Completed HAVO with informatica specialization, building IT foundation before university",
+        "Scored high marks in mathematics and science subjects",
       ],
     },
   ],
