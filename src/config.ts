@@ -27,7 +27,7 @@ export const siteConfig = {
     {
       name: "Gender Prediction ML Model",
       description: "Machine learning model that predicts gender from facial images using TensorFlow and the UTKFace dataset.",
-      link: "https://deanj.dev/geslacht-ai",
+      link: "https://ml.deanj.dev",
       skills: ["Python", "TensorFlow", "Computer Vision", "Jupyter"],
     },
     {
