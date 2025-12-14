@@ -15,13 +15,13 @@ export const siteConfig = {
     {
       name: "CarAndAll Rental Platform",
       description: "Web platform for renting cars, caravans, and campers with real-time reservations, booking management, and approval tracking.",
-      link: "https://github.com/yourusername/carandall",
+      // link: "https://github.com/yourusername/carandall",
       skills: ["React", "ASP.NET", "SQL Server", "Azure"],
     },
     {
       name: "ChatAI Desktop Application",
       description: "Java desktop app with tab-based interface for information search and conversations, featuring Elasticsearch integration.",
-      link: "https://github.com/yourusername/chatai",
+      // link: "https://github.com/yourusername/chatai",
       skills: ["Java", "JavaFX", "Elasticsearch", "JSON"],
     },
     {
@@ -33,7 +33,7 @@ export const siteConfig = {
     {
       name: "Proxy Tester CLI Tool",
       description: "Multi-threaded command-line tool for testing proxy servers with customizable headers and timeout configurations.",
-      link: "https://github.com/yourusername/proxy-tester",
+      link: "https://github.com/Deanddj/ProxyChecker",
       skills: ["Python", "Multi-threading", "CLI"],
     },
     {
@@ -45,7 +45,7 @@ export const siteConfig = {
     {
       name: "Driver's License Slot Checker",
       description: "Python script that monitors driver's license appointment slots and sends Discord notifications when earlier times become available.",
-      link: "https://github.com/yourusername/license-checker",
+      link: "https://github.com/Deanddj/RijbewijsBot",
       skills: ["Python", "Discord API", "Web Scraping", "Automation"],
     },
   ],
