@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Dean Jaddoe",
-  title: "Software Engineer Student",
+  title: "Software Engineering Student",
   description: "Portfolio website of Dean Jaddoe",
   accentColor: "#1d4ed8",
   social: {
@@ -9,29 +9,44 @@ export const siteConfig = {
     github: "https://github.com/Deanddj",
   },
   aboutMe:
-    "I'm Dean Jaddoe, a passionate Software Engineering student at The Hague University of Applied Sciences with a strong interest in full-stack development. My goal is building functional, user-friendly applications that solve real-world problems, working with technologies like React, ASP.NET, Python, and Docker. My projects range from a full-stack web application to a machine learning model. As a motivated learner with a problem-solving mindset, I'm constantly exploring new technologies and refining my skills, always aiming to create solutions that are both technically correct and user-centered. When I'm not coding, you'll find me at the gym or enjoying social activities with friends.",
-  skills: ["Javascript", "React", "ASP.NET", "Python", "C#", "Docker"],
+    "I'm Dean Jaddoe, a Software Engineering student at The Hague University of Applied Sciences specializing in full-stack development. I build user-friendly applications that solve real-world problems, from web apps to machine learning models.",
+  skills: ["React", "Java", "ASP.NET", "Python", "C#", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "CarAndAll Rental Platform",
+      description: "Web platform for renting cars, caravans, and campers with real-time reservations, booking management, and approval tracking.",
+      link: "https://github.com/yourusername/carandall",
+      skills: ["React", "ASP.NET", "SQL Server", "Azure"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "ChatAI Desktop Application",
+      description: "Java desktop app with tab-based interface for information search and conversations, featuring Elasticsearch integration.",
+      link: "https://github.com/yourusername/chatai",
+      skills: ["Java", "JavaFX", "Elasticsearch", "JSON"],
     },
     {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Gender Prediction ML Model",
+      description: "Machine learning model that predicts gender from facial images using TensorFlow and the UTKFace dataset.",
+      link: "https://deanj.dev/geslacht-ai",
+      skills: ["Python", "TensorFlow", "Computer Vision", "Jupyter"],
+    },
+    {
+      name: "Proxy Tester CLI Tool",
+      description: "Multi-threaded command-line tool for testing proxy servers with customizable headers and timeout configurations.",
+      link: "https://github.com/yourusername/proxy-tester",
+      skills: ["Python", "Multi-threading", "CLI"],
+    },
+    {
+      name: "Bussen Multiplayer Game",
+      description: "Online multiplayer card game where players can create or join lobbies and play together in real-time.",
+      link: "https://deanj.dev/bussen",
+      skills: ["React", "JavaScript", "Tailwind CSS", "Vite"],
+    },
+    {
+      name: "Driver's License Slot Checker",
+      description: "Python script that monitors driver's license appointment slots and sends Discord notifications when earlier times become available.",
+      link: "https://github.com/yourusername/license-checker",
+      skills: ["Python", "Discord API", "Web Scraping", "Automation"],
     },
   ],
   // experience: [
