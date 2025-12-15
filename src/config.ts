@@ -39,7 +39,7 @@ export const siteConfig = {
     {
       name: "Bussen Multiplayer Game",
       description: "Online multiplayer card game where players can create or join lobbies and play together in real-time.",
-      link: "https://deanj.dev/bussen",
+      link: "https://onlinebussen.nl",
       skills: ["React", "JavaScript", "Tailwind CSS", "Vite"],
     },
     {
