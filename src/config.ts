@@ -13,15 +13,21 @@ export const siteConfig = {
   skills: ["React", "Java", "ASP.NET", "Python", "C#", "Docker"],
   projects: [
     {
+      name: "Bussen Multiplayer Game",
+      description: "Online multiplayer card game where players can create or join lobbies and play together in real-time.",
+      link: "https://onlinebussen.nl",
+      skills: ["React", "JavaScript", "Tailwind CSS", "Vite"],
+    },
+    {
       name: "CarAndAll Rental Platform",
       description: "Web platform for renting cars, caravans, and campers with real-time reservations, booking management, and approval tracking.",
-      // link: "https://github.com/yourusername/carandall",
-      skills: ["React", "ASP.NET", "SQL Server", "Azure"],
+      link: "https://github.com/Deanddj/CarAndAll-ASPReact",
+      skills: ["React", "ASP.NET", "C#"],
     },
     {
       name: "ChatAI Desktop Application",
       description: "Java desktop app with tab-based interface for information search and conversations, featuring Elasticsearch integration.",
-      // link: "https://github.com/yourusername/chatai",
+      link: "https://github.com/Deanddj/ApplicationAI",
       skills: ["Java", "JavaFX", "Elasticsearch", "JSON"],
     },
     {
@@ -31,22 +37,22 @@ export const siteConfig = {
       skills: ["Python", "TensorFlow", "Computer Vision", "Jupyter"],
     },
     {
-      name: "Proxy Tester CLI Tool",
-      description: "Multi-threaded command-line tool for testing proxy servers with customizable headers and timeout configurations.",
-      link: "https://github.com/Deanddj/ProxyChecker",
-      skills: ["Python", "Multi-threading", "CLI"],
-    },
-    {
-      name: "Bussen Multiplayer Game",
-      description: "Online multiplayer card game where players can create or join lobbies and play together in real-time.",
-      link: "https://onlinebussen.nl",
-      skills: ["React", "JavaScript", "Tailwind CSS", "Vite"],
+      name: "Pathfinding Visualizer",
+      description: "Interactive visualizer for 5 pathfinding algorithms (BFS, DFS, Dijkstra, Greedy Best-First, A*) racing on procedurally-generated grids, with per-algorithm terrain tuned to expose each strategy's strengths and weaknesses.",
+      link: "https://pathfinding.deanj.dev",
+      skills: ["React", "TypeScript", "Vite"],
     },
     {
       name: "Driver's License Slot Checker",
       description: "Python script that monitors driver's license appointment slots and sends Discord notifications when earlier times become available.",
       link: "https://github.com/Deanddj/RijbewijsBot",
       skills: ["Python", "Discord API", "Web Scraping", "Automation"],
+    },
+    {
+      name: "Proxy Tester CLI Tool",
+      description: "Multi-threaded command-line tool for testing proxy servers with customizable headers and timeout configurations.",
+      link: "https://github.com/Deanddj/ProxyChecker",
+      skills: ["Python", "Multi-threading", "CLI"],
     },
   ],
   // experience: [
