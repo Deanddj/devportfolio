@@ -13,12 +13,6 @@ export const siteConfig = {
   skills: ["React", "Java", "ASP.NET", "Python", "C#", "Docker"],
   projects: [
     {
-      name: "Bussen Multiplayer Game",
-      description: "Online multiplayer card game where players can create or join lobbies and play together in real-time.",
-      link: "https://onlinebussen.nl",
-      skills: ["React", "JavaScript", "Tailwind CSS", "Vite"],
-    },
-    {
       name: "CarAndAll Rental Platform",
       description: "Web platform for renting cars, caravans, and campers with real-time reservations, booking management, and approval tracking.",
       link: "https://github.com/Deanddj/CarAndAll-ASPReact",
@@ -33,7 +27,7 @@ export const siteConfig = {
     {
       name: "Gender Prediction ML Model",
       description: "Machine learning model that predicts gender from facial images using TensorFlow and the UTKFace dataset.",
-      link: "https://ml.deanj.dev",
+      link: "https://github.com/Deanddj/GeslachtAI",
       skills: ["Python", "TensorFlow", "Computer Vision", "Jupyter"],
     },
     {
@@ -47,6 +41,12 @@ export const siteConfig = {
       description: "Python script that monitors driver's license appointment slots and sends Discord notifications when earlier times become available.",
       link: "https://github.com/Deanddj/RijbewijsBot",
       skills: ["Python", "Discord API", "Web Scraping", "Automation"],
+    },
+    {
+      name: "Bussen Multiplayer Game",
+      description: "Online multiplayer card game where players can create or join lobbies and play together in real-time.",
+      link: "https://onlinebussen.nl",
+      skills: ["React", "JavaScript", "Tailwind CSS", "Vite"],
     },
     {
       name: "Proxy Tester CLI Tool",
