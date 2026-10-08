@@ -43,10 +43,10 @@ export const siteConfig = {
       skills: ["Python", "Discord API", "Web Scraping", "Automation"],
     },
     {
-      name: "Bussen Multiplayer Game",
-      description: "Online multiplayer card game where players can create or join lobbies and play together in real-time.",
+      name: "Bussen — Real-time Multiplayer Card Game",
+      description: "Cross-platform multiplayer version of the Dutch card game Bussen. A Node.js server owns the game logic and syncs state to clients in real time over Socket.IO, with PostgreSQL for persistent data, Redis for session and lobby state, and Capacitor for the native apps.",
       link: "https://onlinebussen.nl",
-      skills: ["React", "JavaScript", "Tailwind CSS", "Vite"],
+      skills: ["React", "Node.js", "Socket.IO", "PostgreSQL", "Redis", "Capacitor"],
     },
     {
       name: "Proxy Tester CLI Tool",
