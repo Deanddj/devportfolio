@@ -59,7 +59,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                       )}
 
                       <div class="space-y-4">
-                        <div>
+                        <div class={project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}>
                           <span
                             class="text-sm font-mono"
                             style={{ color: siteConfig.accentColor }}
